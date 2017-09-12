@@ -20,9 +20,9 @@ $ResultsTable | export-csv "C:\Users\kmesa\Downloads\createSites.csv" -notype
 $tokenurl = "https://benefitfocus.my.salesforce.com/services/oauth2/token"
 $postParams = [ordered]@{
 grant_type="password";
-client_id="3MVG9CVKiXR7Ri5qTwCGiHeaDbwIjjxljN26HW29WGuKBFPpb1_U6ZmE_uVuq1ws4yRFnowsIKZf_QV1NCzvI";
-client_secret="6200684738222392571";
-username="kristian.mesa@benefitfocus.com";
+client_id="[client_id]";
+client_secret="[client_secret]";
+username="yourusername@benefitfocus.com";
 password= getPassword "Salesforce";
 }
 

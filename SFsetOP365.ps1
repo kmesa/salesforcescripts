@@ -22,7 +22,7 @@ $postParams = [ordered]@{
 grant_type="password";
 client_id="[client_id]";
 client_secret="[client_secret]";
-username="yourusername@benefitfocus.com";
+username="yourusername@company.com";
 password= getPassword "Salesforce";
 }
 

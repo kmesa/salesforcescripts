@@ -8,7 +8,7 @@ $ResultsTable.columns.add($col1)
 $ResultsTable.columns.add($col2)
 $ResultsTable.columns.add($col3)
 
-$addstr = "https://portal.benefitfocus.com/cp/"
+$addstr = "https://portal.sharepoint2013site.com/cp/"
 $csv = Import-Csv "C:\Users\kmesa\Downloads\createsites.csv"
 
 Foreach ($line in $csv){

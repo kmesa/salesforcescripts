@@ -1,7 +1,7 @@
 #Get Report and remove unnecessary data
 #working but issues with commas if they are in the account name
 Import-Module "C:\Users\kmesa\Documents\Source Control\powershell-modules\EncryptModule\PassEncryptModule.psm1"
-
+# new
 $login_uri = "https://benefitfocus.my.salesforce.com"
 $username = "kristian.mesa@benefitfocus.com"
 $password = getPassword "Salesforce"
